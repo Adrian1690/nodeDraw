@@ -1,0 +1,15 @@
+{
+	"name":"draw",
+	"version":"0.0.1",
+	"dependencies" : {
+		"express": "*",
+		"jade":"*",
+		"stylus":"*",
+		"socket.io":"*",
+		"nodemon":"*"
+	},
+	"scripts":{
+		"start": "nodemon server.js"
+	}
+
+}

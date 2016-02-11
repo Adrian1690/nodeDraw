@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	title welcome to virtual board
+	link(rel="stylesheet", href="/css/style.css")
+	script(type="text/javascript", src="/js/jquery-2.0.3.min.js")
+	script(src="/socket.io/socket.io.js")
+	script(src="/js/drawing.js")
+body(onload = "createLienzo()")
+	h1 #{message}
+	h3 
+		|Contador en 
+		span.count
+	#board
